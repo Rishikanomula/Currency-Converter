@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Converter</title>
+    <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-    <link rel="stylesheet" href="styling.css">
     <div class="container">
-        <h2>Currency Converter</h2>
+        <h3>CURRENCY CONVERTER</h3>
         <div class="converter">
             <div class="input-group">
                 <label for="from-currency">From:</label>
@@ -28,8 +28,10 @@
             <button id="swap">⇄</button>
             <button id="convert">Convert</button>
 
+            <div id="loading" style="display:none;">Loading...</div>
             <h3 id="result"></h3>
             <p id="exchange-rate"></p>
+            <p id="error" style="color:red;"></p>
         </div>
     </div>
 
