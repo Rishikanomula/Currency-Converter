@@ -19,9 +19,7 @@ body{
     /* justify-content:center; */   
     /* background-color: pink; */
     background: linear-gradient(45deg, #4d3664 0%, #7f6f8f 50%, #bab5f6 100%);
-
-    /* background: linear-gradient(circle, rgb(200, 95, 232) 0%, rgb(133, 107, 189) 100%); */
-    
+    /* background: linear-gradient(circle, rgb(200, 95, 232) 0%, rgb(133, 107, 189) 100%); */ 
 
 }
 h3{

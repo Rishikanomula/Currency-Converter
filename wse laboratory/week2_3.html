@@ -1,0 +1,85 @@
+<html lang="en"> 
+<head> 
+<title>HTML Div Layout</title> 
+<style> 
+a{ 
+text-decoration:none; 
+color:white; 
+} 
+body { 
+font: 14px Arial; 
+margin: 0px; 
+} 
+.header { 
+padding: 0px 0px; 
+background: rgb(75, 75, 77); 
+color:white; 
+} 
+.header h1 { 
+font-size: 24px; 
+margin-top:0px; 
+} 
+.container { 
+width: 1400px; 
+background:rgb(255, 252, 252); 
+height:850px; 
+} 
+.nav, .section { 
+float: left; 
+padding: 0px; 
+min-height: 650px; 
+box-sizing: border-box; 
+} 
+.nav { 
+width: 20%; 
+background: rgb(0, 7, 0); 
+} 
+.section { 
+width: 800px; 
+height:650px; 
+background-image:url("backg.jpg"); 
+} 
+.nav a { 
+color: white; 
+} 
+.footer { 
+background: rgb(75, 75, 77); 
+text-align: center; 
+padding: 10px; 
+position:fixed; 
+bottom:0; 
+left:0; 
+right:0; 
+color:rgb(254, 254, 255); 
+} 
+</style> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head> 
+<body> 
+<div class="container"> 
+<div class="header"> 
+<!--<h1 align="center">Tutorials</h1>--> 
+<img src="logo2.png" width="151px" height="150px"> 
+</div> 
+<div class="nav"> 
+<h3> <a href="#">Home</a></h3> 
+<h3> <a href="#">About</a></h3> 
+<h3><a href="#">Contact</a></h3> 
+<h3> <a href="#">Services</a></h3> 
+<h3> <a href="#">Catlogue</a></h3> 
+<h3><a href="#">Gallary</a></h3> 
+<h3> <a href="#">Media</a></h3> 
+<h3> <a href="#">Daily updates</a></h3> 
+<h3><a href="#">Notifications</a></h3> 
+</div> 
+<div class="section"> 
+<h2 style="color: antiquewhite;">Welcome to our site</h2> 
+<p style="color: aliceblue;">Here you will learn how to create webpage layouts...</p> 
+</div> 
+<div class="footer"> 
+<p>copyright & copy; All rights reserved.</p> 
+<img src="photo.jpeg" width="30px" height="30px"> 
+</div> 
+</div> 
+</body> 
+</html>
